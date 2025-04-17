@@ -1,0 +1,27 @@
+Correlation: 0.089
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            crime_count   R-squared:                       0.008
+Model:                            OLS   Adj. R-squared:                  0.005
+Method:                 Least Squares   F-statistic:                     2.869
+Date:                Thu, 17 Apr 2025   Prob (F-statistic):             0.0911
+Time:                        11:10:24   Log-Likelihood:                -2081.8
+No. Observations:                 365   AIC:                             4168.
+Df Residuals:                     363   BIC:                             4175.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const         589.6350     27.972     21.080      0.000     534.628     644.642
+temperature     0.6315      0.373      1.694      0.091      -0.102       1.365
+==============================================================================
+Omnibus:                      283.685   Durbin-Watson:                   1.079
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4582.943
+Skew:                           3.182   Prob(JB):                         0.00
+Kurtosis:                      19.150   Cond. No.                         551.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
